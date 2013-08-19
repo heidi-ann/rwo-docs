@@ -20,7 +20,7 @@ mkdir ${PACKAGE}.${VERSION}_src
 
 find ~/.opam/4.01.0+bin-doc/build/$PACKAGE.$VERSION/_build/lib -name '*.cm[td]*' | xargs -I {} cp {} ~/rwo-docs/${PACKAGE}.${VERSION}_src
 
-~/opam-doc/opam-doc -p $PACKAGE.$VERSION ${PACKAGE}.${VERSION}_src/*.cmti ${PACKAGE}.${VERSION}_src/*.cmdi
+ ~/opam-doc/opam-doc -p $PACKAGE.$VERSION $(find ${PACKAGE}.${VERSION}_src/ -name *.cm[dt]*)
 
 echo "done"; 
 

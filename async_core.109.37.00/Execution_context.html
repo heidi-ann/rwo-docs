@@ -1,0 +1,255 @@
+<div class="ocaml_toplevel_module"><pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">unit</code></pre>
+<div class="ocaml_module ident" name="Monitor" path="?package=async_core.109.37.00&amp;module=Raw_monitor"><pre><span class="keyword">module</span> <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor">Monitor</a> : <code class="type"><code class="code"><a href="?package=async_core.109.37.00&amp;module=Raw_monitor">Raw_monitor</a></code></code></pre></div>
+<pre><code><span class="TYPEt"><span class="keyword">type</span> t</span> = {</code></pre><table class="typetable">
+		    <tr><td align="left" valign="top"><code>  </code></td><td align="left" valign="top"><code><span class="TYPEELTt.monitor">monitor</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a></code></code></td></tr><tr><td align="left" valign="top"><code>  </code></td><td align="left" valign="top"><code><span class="TYPEELTt.priority">priority</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a></code></code></td></tr><tr><td align="left" valign="top"><code>  </code></td><td align="left" valign="top"><code><span class="TYPEELTt.backtrace_history">backtrace_history</span> : <code class="type">Core.Std.Backtrace.t list</code></code></td></tr><tr><td align="left" valign="top"><code>  </code></td><td align="left" valign="top"><code><span class="keyword">mutable</span> <span class="TYPEELTt.kill_index">kill_index</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a></code></code></td></tr><tr><td>}</td></tr></table>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; unit</code></pre>
+<pre><span class="VALsexp_of_t"><span class="keyword">val</span> sexp_of_t</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Sexplib.Sexp.t</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Sexplib.Sexp.t</code></pre>
+<pre><span class="VALkill_index"><span class="keyword">val</span> kill_index</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a></code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a></code></pre>
+<pre><span class="VALset_kill_index"><span class="keyword">val</span> set_kill_index</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; unit</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; unit</code></pre>
+<pre><span class="VALbacktrace_history"><span class="keyword">val</span> backtrace_history</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Core.Std.Backtrace.t list</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Core.Std.Backtrace.t list</code></pre>
+<pre><span class="VALpriority"><span class="keyword">val</span> priority</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a></code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a></code></pre>
+<pre><span class="VALmonitor"><span class="keyword">val</span> monitor</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a></code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a></code></pre>
+<div class="ocaml_module sig" name="Fields"><pre><span class="keyword">module</span> <a href="?package=async_core.109.37.00&amp;module=Execution_context.Fields">Fields</a> : <code class="type"><code class="code">sig</code> .. <code class="code">end</code></code></pre><div class="ocaml_module_content">
+<pre><span class="VALnames"><span class="keyword">val</span> names</span> : <code class="type">string list</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">string list</code></pre>
+<pre><span class="VALkill_index"><span class="keyword">val</span> kill_index</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>) Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>) Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALbacktrace_history"><span class="keyword">val</span> backtrace_history</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, Core.Std.Backtrace.t list)
+Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, Core.Std.Backtrace.t list)
+Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALpriority"><span class="keyword">val</span> priority</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>) Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>) Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALmonitor"><span class="keyword">val</span> monitor</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>) Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>) Fieldslib.Field.t_with_perm</code></pre>
+<pre><span class="VALmake_creator"><span class="keyword">val</span> make_creator</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'a -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>) * 'c) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'c -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>) * 'd) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt;
+                   'd -&gt; ('b -&gt; Core.Std.Backtrace.t list) * 'e) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'e -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>) * 'f) -&gt;
+'a -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>) * 'f</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'a -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>) * 'c) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'c -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>) * 'd) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt;
+                   'd -&gt; ('b -&gt; Core.Std.Backtrace.t list) * 'e) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'e -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>) * 'f) -&gt;
+'a -&gt; ('b -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>) * 'f</code></pre>
+<pre><span class="VALcreate"><span class="keyword">val</span> create</span> : <code class="type">monitor:<a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt;
+priority:<a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt;
+backtrace_history:Core.Std.Backtrace.t list -&gt; kill_index:<a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:<a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt;
+priority:<a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt;
+backtrace_history:Core.Std.Backtrace.t list -&gt; kill_index:<a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALmap"><span class="keyword">val</span> map</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; Core.Std.Backtrace.t list) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>) -&gt;
+<a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; Core.Std.Backtrace.t list) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>) -&gt;
+<a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALiter"><span class="keyword">val</span> iter</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'b) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; 'c) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'd) -&gt;
+'d</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'b) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; 'c) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'd) -&gt;
+'d</code></pre>
+<pre><span class="VALfold"><span class="keyword">val</span> fold</span> : <code class="type">init:'a -&gt;
+monitor:('a -&gt;
+         ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'b) -&gt;
+priority:('b -&gt;
+          ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'c) -&gt;
+backtrace_history:('c -&gt;
+                   ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; 'd) -&gt;
+kill_index:('d -&gt;
+            ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'e) -&gt;
+'e</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">init:'a -&gt;
+monitor:('a -&gt;
+         ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'b) -&gt;
+priority:('b -&gt;
+          ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'c) -&gt;
+backtrace_history:('c -&gt;
+                   ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; 'd) -&gt;
+kill_index:('d -&gt;
+            ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'e) -&gt;
+'e</code></pre>
+<pre><span class="VALmap_poly"><span class="keyword">val</span> map_poly</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, 'a) Fieldslib.Field.user -&gt; 'a list</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, 'a) Fieldslib.Field.user -&gt; 'a list</code></pre>
+<pre><span class="VALfor_all"><span class="keyword">val</span> for_all</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+bool</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+bool</code></pre>
+<pre><span class="VALexists"><span class="keyword">val</span> exists</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+bool</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; bool) -&gt;
+bool</code></pre>
+<pre><span class="VALto_list"><span class="keyword">val</span> to_list</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+'a list</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; 'a) -&gt;
+'a list</code></pre>
+<div class="ocaml_module sig" name="Direct"><pre><span class="keyword">module</span> <a href="?package=async_core.109.37.00&amp;module=Execution_context.Fields.Direct">Direct</a> : <code class="type"><code class="code">sig</code> .. <code class="code">end</code></code></pre><div class="ocaml_module_content">
+<pre><span class="VALiter"><span class="keyword">val</span> iter</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt;
+monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt; 'a) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt; 'b) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt;
+                   <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Core.Std.Backtrace.t list -&gt; 'c) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; 'd) -&gt;
+'d</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt;
+monitor:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt; 'a) -&gt;
+priority:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt; 'b) -&gt;
+backtrace_history:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt;
+                   <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Core.Std.Backtrace.t list -&gt; 'c) -&gt;
+kill_index:(([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; 'd) -&gt;
+'d</code></pre>
+<pre><span class="VALfold"><span class="keyword">val</span> fold</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt;
+init:'a -&gt;
+monitor:('a -&gt;
+         ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt; 'b) -&gt;
+priority:('b -&gt;
+          ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt; 'c) -&gt;
+backtrace_history:('c -&gt;
+                   ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt;
+                   <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Core.Std.Backtrace.t list -&gt; 'd) -&gt;
+kill_index:('d -&gt;
+            ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; 'e) -&gt;
+'e</code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt;
+init:'a -&gt;
+monitor:('a -&gt;
+         ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a>)
+         Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt; 'b) -&gt;
+priority:('b -&gt;
+          ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a>)
+          Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt; 'c) -&gt;
+backtrace_history:('c -&gt;
+                   ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>,
+                    Core.Std.Backtrace.t list)
+                   Fieldslib.Field.t_with_perm -&gt;
+                   <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; Core.Std.Backtrace.t list -&gt; 'd) -&gt;
+kill_index:('d -&gt;
+            ([&lt; `Read | `Set_and_create ], <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a>, <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a>)
+            Fieldslib.Field.t_with_perm -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Kill_index&amp;type=t">Kill_index.t</a> -&gt; 'e) -&gt;
+'e</code></pre></div></div></div></div>
+<pre><span class="VALinvariant"><span class="keyword">val</span> invariant</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; unit</code></pre>
+<pre><span class="VALmain"><span class="keyword">val</span> main</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALcreate_like"><span class="keyword">val</span> create_like</span> : <code class="type">?monitor:<a href="?package=async_core.109.37.00&amp;module=Execution_context.Monitor&amp;type=t">Monitor.t</a> -&gt; ?priority:<a href="?package=async_core.109.37.00&amp;module=Priority&amp;type=t">Priority.t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALrecord_backtrace"><span class="keyword">val</span> record_backtrace</span> : <code class="type"><a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a> -&gt; <a href="?package=async_core.109.37.00&amp;module=Execution_context&amp;type=t">t</a></code></pre>
+<pre><span class="VALUnknown name -- to fix"><span class="keyword">val</span> Unknown name -- to fix</span> : <code class="type">unit</code></pre>
+</div>
